@@ -1,0 +1,293 @@
+{
+  "title": "Organizzare escursioni",
+  "description": "Prototipo pubblico con percorsi e adesioni dimostrative, tutti con dati di fantasia.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle escursioni immaginarie e delle adesioni simulate.",
+      "metrics": [
+        {
+          "label": "Percorsi disponibili",
+          "value": "6"
+        },
+        {
+          "label": "Difficoltà lieve",
+          "value": "2"
+        },
+        {
+          "label": "Difficoltà moderata",
+          "value": "2"
+        },
+        {
+          "label": "Difficoltà impegnativa",
+          "value": "2"
+        },
+        {
+          "label": "Adesioni simulate",
+          "value": "18"
+        }
+      ],
+      "columns": [
+        "Percorso",
+        "Zona immaginaria",
+        "Difficoltà",
+        "Durata",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Anello delle Nubi",
+          "Valle di Lumo",
+          "Lieve",
+          "2 ore",
+          "Disponibile"
+        ],
+        [
+          "Sentiero Vela",
+          "Bosco di Brina",
+          "Moderata",
+          "4 ore",
+          "Disponibile"
+        ],
+        [
+          "Creste di Miralba",
+          "Altopiano di Rame",
+          "Impegnativa",
+          "6 ore",
+          "Disponibile"
+        ],
+        [
+          "Passo dei Fiori Blu",
+          "Colle di Nivora",
+          "Lieve",
+          "3 ore",
+          "Disponibile"
+        ],
+        [
+          "Cascate di Lunaria",
+          "Gola di Seldra",
+          "Moderata",
+          "5 ore",
+          "Disponibile"
+        ],
+        [
+          "Vetta di Aurorìa",
+          "Monte di Veluna",
+          "Impegnativa",
+          "7 ore",
+          "Disponibile"
+        ]
+      ],
+      "form": [
+        "Percorso",
+        "Zona immaginaria",
+        "Difficoltà",
+        "Durata"
+      ]
+    },
+    {
+      "id": "percorsi",
+      "title": "Elenco percorsi",
+      "description": "Consulta e filtra i percorsi per zona, difficoltà e durata.",
+      "metrics": [
+        {
+          "label": "Percorsi elencati",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Percorso",
+        "Zona immaginaria",
+        "Difficoltà",
+        "Durata",
+        "Dislivello",
+        "Punto di ritrovo",
+        "Disponibilità"
+      ],
+      "rows": [
+        [
+          "Anello delle Nubi",
+          "Valle di Lumo",
+          "Lieve",
+          "2 ore",
+          "180 m",
+          "Piazza delle Lantere",
+          "Posti disponibili"
+        ],
+        [
+          "Sentiero Vela",
+          "Bosco di Brina",
+          "Moderata",
+          "4 ore",
+          "460 m",
+          "Radura del Muschio",
+          "Posti disponibili"
+        ],
+        [
+          "Creste di Miralba",
+          "Altopiano di Rame",
+          "Impegnativa",
+          "6 ore",
+          "920 m",
+          "Arco di Pietraviva",
+          "Posti disponibili"
+        ],
+        [
+          "Passo dei Fiori Blu",
+          "Colle di Nivora",
+          "Lieve",
+          "3 ore",
+          "240 m",
+          "Fontana di Lume",
+          "Posti disponibili"
+        ],
+        [
+          "Cascate di Lunaria",
+          "Gola di Seldra",
+          "Moderata",
+          "5 ore",
+          "610 m",
+          "Ponte delle Felci",
+          "Posti disponibili"
+        ],
+        [
+          "Vetta di Aurorìa",
+          "Monte di Veluna",
+          "Impegnativa",
+          "7 ore",
+          "1100 m",
+          "Rifugio delle Cicale",
+          "Posti disponibili"
+        ]
+      ],
+      "form": [
+        "Percorso",
+        "Zona immaginaria",
+        "Difficoltà",
+        "Durata",
+        "Dislivello",
+        "Punto di ritrovo"
+      ]
+    },
+    {
+      "id": "scheda-percorso",
+      "title": "Scheda percorso",
+      "description": "Dettaglio di un itinerario selezionato, con informazioni pratiche e riepilogo.",
+      "metrics": [
+        {
+          "label": "Esempio selezionato",
+          "value": "Anello delle Nubi"
+        },
+        {
+          "label": "Difficoltà",
+          "value": "Lieve"
+        },
+        {
+          "label": "Durata prevista",
+          "value": "2 ore"
+        }
+      ],
+      "columns": [
+        "Percorso",
+        "Zona immaginaria",
+        "Difficoltà",
+        "Durata",
+        "Dislivello",
+        "Punto di ritrovo"
+      ],
+      "rows": [
+        [
+          "Anello delle Nubi",
+          "Valle di Lumo",
+          "Lieve",
+          "2 ore",
+          "180 m",
+          "Piazza delle Lantere"
+        ],
+        [
+          "Sentiero Vela",
+          "Bosco di Brina",
+          "Moderata",
+          "4 ore",
+          "460 m",
+          "Radura del Muschio"
+        ],
+        [
+          "Creste di Miralba",
+          "Altopiano di Rame",
+          "Impegnativa",
+          "6 ore",
+          "920 m",
+          "Arco di Pietraviva"
+        ]
+      ],
+      "form": [
+        "Percorso",
+        "Zona immaginaria",
+        "Difficoltà",
+        "Durata",
+        "Dislivello",
+        "Punto di ritrovo"
+      ]
+    },
+    {
+      "id": "adesione",
+      "title": "Modulo adesione",
+      "description": "Registra una partecipazione simulata, senza inviare dati a servizi esterni.",
+      "metrics": [
+        {
+          "label": "Adesioni dimostrative",
+          "value": "18"
+        },
+        {
+          "label": "Stato del modulo",
+          "value": "Simulazione"
+        }
+      ],
+      "columns": [
+        "Partecipante immaginario",
+        "Percorso",
+        "Data simulata",
+        "Numero partecipanti",
+        "Difficoltà",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Anello delle Nubi",
+          "12 maggio",
+          "2",
+          "Lieve",
+          "Simulata"
+        ],
+        [
+          "Vela",
+          "Sentiero Vela",
+          "16 maggio",
+          "1",
+          "Moderata",
+          "Simulata"
+        ],
+        [
+          "Nubi",
+          "Passo dei Fiori Blu",
+          "20 maggio",
+          "3",
+          "Lieve",
+          "Simulata"
+        ]
+      ],
+      "form": [
+        "Partecipante immaginario",
+        "Percorso",
+        "Data simulata",
+        "Numero partecipanti",
+        "Difficoltà",
+        "Stato"
+      ]
+    }
+  ]
+}
